@@ -29,6 +29,8 @@ class homeScreen : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(MainActivity())
         val notes = listOf(
             Note("Note 1"),
+            Note("Another note!"),
+            Note("Yet Another!")
         )
         recyclerView.adapter = NoteAdapter(notes)
         return view
