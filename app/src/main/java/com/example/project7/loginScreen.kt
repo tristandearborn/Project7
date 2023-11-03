@@ -1,5 +1,4 @@
-package com.example.project6_notesapp
-
+package com.example.project7
 import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.os.Bundle
